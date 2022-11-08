@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* container */
+.container{
+    width: 80%;
+    height: auto auto;
+    border: solid 1px;
+    margin: 0 auto;
+   
+}
+
+/* HEADER */
+header{
+    border: solid 1px;
+    padding: 10px 15px;
+}
+
+/* ASIDE */
+aside{
+    border: solid 1px;
+}
+
+
+/* MAIN */
+main{
+    border: solid 1px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+
+nav ul li{
+    border: solid 1px;
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+   min-width: 150px;
+    border: solid 1px
+}
+
+/* RWD grid_view */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+
+/* team_info */
+.team_member{
+    display: flex;
+    justify-content:space-between;
+    border: solid 1px;
+}
+
+.member{
+    max-width: 25%;
+    margin: 0 5px;
+    padding: 10px;
+    /* border: solid 1px; */
+}
+
+.member img{
+    max-width: 80%;
+}
+
+/* PROJECT-topic */
+.project_topic{
+    display: flex;
+    border: solid 1px;
+    
+}
+
+.project_topic img{
+    max-width: 60%;
+}
+
+.project_describe p{
+    margin: 10px 0;
+}
