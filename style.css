@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+h1{
+    text-align: center;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
 /* container */
 .container{
     width: 80%;
@@ -15,48 +23,62 @@
 
 /* HEADER */
 header{
-    border: solid 1px;
-    padding: 10px 15px;
+    color: black;
+    
+    background-color: #4FC3F7;
+    display: flex;
+    justify-content: space-between;
 }
 
-/* ASIDE */
-aside{
-    border: solid 1px;
+
+header h1{
+    text-align: left;
+    padding: 10px;
 }
 
-
-/* MAIN */
-main{
-    border: solid 1px;
-}
-
+/* navbar */
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    
    
 }
 
 nav ul li{
-    border: solid 1px;
-    background-color: aqua;
+    
+    border-radius: 20px;
     padding: 10px;
     margin: 10px;
+    font-weight: bold;
     text-align: center;
     text-transform: uppercase;
+    display: inline-block;
+    
+}
+
+nav ul li:hover{
+    background-color: white;
+    transition: 0.5s;
     
 }
 
 nav ul li a{
     text-decoration: none;
-    color: black;
+    color: black; 
+    
 }
 
-nav{
-   min-width: 150px;
-    border: solid 1px
+/* ASIDE */
+aside{
+   border: 1px solid;
+    text-align: center;
+    
 }
+
+/* MAIN */
+
 
 /* RWD grid_view */
 
@@ -84,11 +106,16 @@ nav{
     padding: 15px;
   }
 
+/* welcome */
+.welcome p{
+    text-align: center;
+}
+
 /* team_info */
-.team_member{
+.team{
     display: flex;
     justify-content:space-between;
-    border: solid 1px;
+    
 }
 
 .member{
@@ -105,14 +132,22 @@ nav{
 /* PROJECT-topic */
 .project_topic{
     display: flex;
-    border: solid 1px;
     
 }
 
 .project_topic img{
-    max-width: 60%;
+    max-width: 30%;
 }
 
 .project_describe p{
     margin: 10px 0;
+}
+
+/* about */
+.about{
+    text-align: center;
+}
+
+.about img{
+    max-width: 40%;
 }
