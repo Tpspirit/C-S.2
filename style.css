@@ -16,15 +16,13 @@ p{
 .container{
     width: 80%;
     height: auto auto;
-    
     margin: 0 auto;
    
 }
 
 /* HEADER */
 header{
-    color: black;
-    
+    color: black;  
     background-color: #4FC3F7;
     display: flex;
     justify-content: space-between;
