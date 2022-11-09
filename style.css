@@ -16,7 +16,7 @@ p{
 .container{
     width: 80%;
     height: auto auto;
-    border: solid 1px;
+    
     margin: 0 auto;
    
 }
@@ -60,7 +60,7 @@ nav ul li{
 
 nav ul li:hover{
     background-color: white;
-    transition: 0.5s;
+    transition: 0.3s;
     
 }
 
@@ -71,11 +71,11 @@ nav ul li a{
 }
 
 /* ASIDE */
-aside{
+/* aside{
    border: 1px solid;
     text-align: center;
     
-}
+} */
 
 /* MAIN */
 
@@ -122,11 +122,12 @@ aside{
     max-width: 25%;
     margin: 0 5px;
     padding: 10px;
-    /* border: solid 1px; */
+    
 }
 
 .member img{
     max-width: 80%;
+    border-radius: 100%;
 }
 
 /* PROJECT-topic */
