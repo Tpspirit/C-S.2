@@ -121,11 +121,15 @@ nav ul li a{
     margin: 0 5px;
     padding: 10px;
     
+    
 }
 
 .member img{
-    max-width: 80%;
+    
     border-radius: 100%;
+    margin: auto;
+    display: block;
+    
 }
 
 /* PROJECT-topic */
