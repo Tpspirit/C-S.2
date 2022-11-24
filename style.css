@@ -154,3 +154,80 @@ nav ul li a{
 .about img{
     max-width: 40%;
 }
+
+/* journey map */
+.journey_map img{
+    width: 100%;
+}
+
+/* Personas */
+.persona{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.persona_detail{
+    
+    width: 100%; 
+}
+
+.persona_detail img{
+    display: block;
+    margin: 0 auto;
+}
+.persona_detail h2{
+    text-align: center;
+}
+
+/* Prototype */
+
+.prototype{
+    position: relative;
+}
+
+.prototype img{
+    width: 100%;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+.prototype h2{
+    position: absolute;
+    top: 30%;
+    width:100%;
+    text-align: center;
+    font-size: 5rem;
+    letter-spacing: 3px;
+    color: #29B6F6 ;
+    font-weight: 2000;
+    padding: 10px;
+   
+    
+}
+
+
+.prototype a:link{
+    text-decoration: none;
+    color:#29B6F6;
+}
+   
+
+.prototype a:visited{
+    text-decoration: none;
+    color:#29B6F6;
+}
+
+.prototype a:hover{
+    text-decoration: none;
+    color:#29B6F6;
+}
+
+.prototype a:active{
+    border-radius: 20px;
+    text-decoration: underline;
+}
+
+
+
