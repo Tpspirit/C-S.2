@@ -151,46 +151,55 @@ nav ul li a{
 
 .toc_container{
     width:100%;
-    height: 100%;
-
+    height: 100%;  
+    justify-content: center;  
+ 
 }
 .toc_container ul {
+    margin: auto;
+    align-items: center; 
     text-align: center;
     list-style: none;
+    width: 250px;
+    height: 100%;
+}
+
+.toc_contents ul{
+    justify-content: center;  
+}
+
+.toc_contents li{
+    background-color: #283c63;
+    padding: 10px;
 }
 
 .toc_contents li a{
     
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
-}
-.links {
-
-    padding: 10px;
-
-    font-size: 1em;
-
     color:#fff;
-
+    font-size: 1em;
+   
 }
 
 
-.links {
-    
-    background-color: #283c63;
-}
 
-.links:hover {
+.toc_contents li:hover {
 
     background-color: #01579B;
-
-    transform: scale(1.1);
 
 }
 
 .assignment_h {
+    width: 100%;
+    height: 100%;
     font-family: 'Raleway', sans-serif;
     padding: 35px;
+
+}
+
+.assignment_img{
+padding: 10px;
 
 }
 
