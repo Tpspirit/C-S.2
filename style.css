@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
 }
 
 h1{
@@ -151,14 +150,17 @@ nav ul li a{
 /*Table of Content*/
 
 .toc_container{
-    width:200px;
+    width:100%;
+    height: 100%;
 
-    position: relative;
-
+}
+.toc_container ul {
+    text-align: center;
+    list-style: none;
 }
 
 .toc_contents li a{
-
+    
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
 }
@@ -168,34 +170,14 @@ nav ul li a{
 
     font-size: 1em;
 
-    border: none;
-
-    outline: none;
-
-    width:200px;
-
     color:#fff;
 
-    transition: 0.3s;
-
 }
 
-.list {
-
-    position: absolute;
-
-    transform: scaleY(0);
-
-    transform-origin: top;
-
-    transition: 0.3s;
-
-}
 
 .links {
     
     background-color: #283c63;
-
 }
 
 .links:hover {
@@ -208,6 +190,7 @@ nav ul li a{
 
 .assignment_h {
     font-family: 'Raleway', sans-serif;
+    padding: 35px;
 
 }
 
