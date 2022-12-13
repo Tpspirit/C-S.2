@@ -157,12 +157,11 @@ nav ul li a{
 .toc_container{
     width:100%;
     height: 100%;  
-    justify-content: center;  
- 
+   
 }
 .toc_container ul {
     margin: auto;
-    align-items: center; 
+    
     text-align: center;
     list-style: none;
     width: 250px;
@@ -170,7 +169,7 @@ nav ul li a{
 }
 
 .toc_contents ul{
-    justify-content: center;  
+   
 }
 
 .toc_contents li{
@@ -207,16 +206,32 @@ padding: 10px;
 }
 
 .button{
-    padding: 10px;
-    color: #aaabb8;
-    background-color: #283c63;
+        width: 100%;
+        text-align: center;
 }
-.button h1 a{
+.button h2{
+    margin: auto;
+    background-color: #283c63;
+    padding: 10px;
+    width:fit-content;
+    
+}
+.button h2 a{
+    
+    text-align: center;
+    color: #aaabb8;
     text-decoration: none;
 }
 .button:hover {
     background-color: #01579B;
 }
+
+.button:visited {
+    color: #aaabb8;
+    background-color: #283c63;
+}
+
+
 /* about */
 .about{
     text-align: center;
