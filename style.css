@@ -23,7 +23,7 @@ p{
 
 /* HEADER */
 header{
-    font-family: 'Raleway', sans-serif;
+    
     color: #aaabb8;
     background-color: #25274D;
     display: flex;
@@ -125,6 +125,10 @@ nav ul li a{
     
     
 }
+.member_name{
+    width: 100%;
+    height: 100px;
+}
 
 .member img{
     
@@ -177,7 +181,6 @@ nav ul li a{
 .toc_contents li a{
     
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
     color:#fff;
     font-size: 1em;
    
@@ -194,7 +197,6 @@ nav ul li a{
 .assignment_h {
     width: 100%;
     height: 100%;
-    font-family: 'Raleway', sans-serif;
     padding: 35px;
 
 }
@@ -209,13 +211,12 @@ padding: 10px;
     color: #aaabb8;
     background-color: #283c63;
 }
-.button a{
+.button h1 a{
     text-decoration: none;
 }
 .button:hover {
-    background-color: #283c63;
-} 
-
+    background-color: #01579B;
+}
 /* about */
 .about{
     text-align: center;
@@ -269,7 +270,6 @@ padding: 10px;
     width:100%;
     text-align: center;
     font-size: 5rem;
-    font-family: 'Raleway', sans-serif;
     letter-spacing: 3px;
     font-weight: 2000;
     padding: 10px;
