@@ -210,7 +210,7 @@ padding: 10px;
         text-align: center;
 }
 .button h2{
-    margin: auto;
+    margin: 50px auto;
     background-color: #283c63;
     padding: 10px;
     width:fit-content;
@@ -222,8 +222,8 @@ padding: 10px;
     color: #aaabb8;
     text-decoration: none;
 }
-.button:hover {
-    background-color: #01579B;
+.button h2:hover {
+    background-color: #464866;
 }
 
 .button:visited {
@@ -240,6 +240,45 @@ padding: 10px;
 .about img{
     max-width: 40%;
 }
+
+.assignment_section1{
+    padding: 35px;
+}
+
+.assignment_section2{
+    background-color: #e7e7e7;
+}
+
+/*platform*/
+
+.platform img{
+    width: 200px;
+    height: 282px;
+    display: flex;
+    margin: 0 auto;
+}
+
+/*Tools*/
+    /*Theydo*/
+
+.theydo img{
+    width: 128px;
+    height: 128px;
+    display: flex;
+    margin: 0 auto;
+}
+
+    
+    /*Figma*/
+
+.figma img{
+    width: 128px;
+    height: 128px;
+    display: flex;
+    margin: 0 auto;
+}
+
+
 
 /* journey map */
 .journey_map img{
