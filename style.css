@@ -204,6 +204,18 @@ padding: 10px;
 
 }
 
+.button{
+    padding: 10px;
+    color: #aaabb8;
+    background-color: #283c63;
+}
+.button a{
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #283c63;
+} 
+
 /* about */
 .about{
     text-align: center;
