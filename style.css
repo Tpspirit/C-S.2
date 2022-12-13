@@ -306,6 +306,17 @@ padding: 10px;
     text-align: center;
 }
 
+/*Scenarios*/
+
+.first-scenario h2 {
+    
+}
+
+.scenarios img{
+    width: 200px;
+    height: 200px;
+}
+
 /* Prototype */
 
 .prototype{
