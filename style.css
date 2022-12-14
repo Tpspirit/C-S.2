@@ -344,8 +344,6 @@ height: auto;
     /* border: 1px solid; */
     display: flex;
     justify-content: space-between;
-    max-width: 1000px;
-    max-height: auto;
    
 }
 .persona .assignment_h{
@@ -355,13 +353,13 @@ height: auto;
 
 
 .persona_detail{
-    
-    width: 100%; 
+        
 }
 
 .persona_detail img{
-    display: block;
+    display: flex;
     margin: 0 auto;
+    width: 500px; 
 }
 .persona_detail h2{
     text-align: center;
