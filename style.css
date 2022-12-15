@@ -40,6 +40,11 @@ header h1{
     padding: 10px;
 }
 
+header h1 a{
+    text-decoration: none;
+    color: #aaabb8;
+}
+
 /* navbar */
 
 nav ul {
@@ -62,7 +67,7 @@ nav ul li{
 }
 
 nav ul li:hover{
-    border: 2px solid #464866;
+    /* border: 2px solid #464866; */
     background-color: #464866;
     transition: 0.3s;
     
@@ -139,6 +144,7 @@ nav ul li a{
     border-radius: 100%;
     margin: auto;
     display: flex;
+    max-width: 70%;
     
 }
 .avatar{
@@ -151,7 +157,7 @@ nav ul li a{
 /* PROJECT-topic */
 .project_topic{
     display: flex;
-    background-color: ;
+   
     
 }
 
@@ -160,7 +166,8 @@ nav ul li a{
 }
 
 .project_describe p{
-    margin: 10px 0;
+    margin: 35px;
+    font-size: 1.4rem;
 }
 
 /*Table of Content*/
@@ -224,10 +231,16 @@ nav ul li a{
 }
 .assignment-img img{
 margin-top: 20px ;
+margin-left: auto;
+margin-right: auto;
 padding: 10px;
-width: 1100px;
+width: 100%;
 height: auto;
+display: block;
+}
 
+#empathy_map .assignment-img img {
+    max-width: 70%;
 }
 
 .button{
@@ -443,4 +456,14 @@ height: auto;
 }
 .link-cs:hover{
 background-color: #e7e7e7;
+}
+
+/* grow on effect */
+.grow{
+    transition: all .2s ease-in-out; 
+
+}
+
+.grow:hover{
+    transform: scale(1.1); 
 }
